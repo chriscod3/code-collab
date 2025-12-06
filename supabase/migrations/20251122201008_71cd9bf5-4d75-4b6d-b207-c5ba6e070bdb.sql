@@ -10,7 +10,7 @@ DECLARE
   code_exists BOOLEAN;
 BEGIN
   LOOP
-    -- Generate a random 6-character alphanumeric code
+    -- to gen a random 6-character code
     new_code := upper(substring(md5(random()::text) from 1 for 6));
     
     -- Check if code already exists

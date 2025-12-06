@@ -1,8 +1,10 @@
 {
-  "name": "vite_react_shadcn_ts",
+  "name": "devcollab",
+  "version": "1.0.0",
   "private": true,
-  "version": "0.0.0",
   "type": "module",
+  "description": "DevCollab is a real-time collaborative code editor built with React, TypeScript, Vite, Tailwind, and ShadCN UI.",
+  "author": "Chris A",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -75,7 +77,6 @@
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.20",
     "globals": "^15.15.0",
-    "lovable-tagger": "^1.1.11",
     "postcss": "^8.5.6",
     "tailwindcss": "^3.4.17",
     "typescript": "^5.8.3",
